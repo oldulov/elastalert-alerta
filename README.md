@@ -1,8 +1,6 @@
 # elastalert-alerta
 
-Custom Elastalert alerta Alerter module.
-========================
-This module is using the python alerta client (https://github.com/alerta/python-alerta-client) to send alert from elastalert to alerta.
+Custom Elastalert alerta Alerter module. This module is using the python alerta client (https://github.com/alerta/python-alerta-client) to send alert from elastalert to alerta.
 
 ----
 
@@ -19,7 +17,7 @@ According to http://elastalert.readthedocs.io/en/latest/recipes/adding_alerts.ht
     $ #-> $ELASTALERT_HOME/modules
 
 
-Usage
+Usage example
 ------------
 To use the new Alerter, in the elastalert rule configuration file, we are going to specify the alert by writing
 
@@ -33,7 +31,7 @@ To use the new Alerter, in the elastalert rule configuration file, we are going 
       alerta_api_key: 'ALERTA_API_KEY_FOR_ELASTALERT'
  
       # can be also specified
-      alerta_event:      'frequency'
+      alerta_event:      'event_name'
       alerta_severity:   'warning'
       alerta_resource:   'elastalert'
       alerta_environment: 'Production'
