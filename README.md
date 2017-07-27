@@ -7,7 +7,7 @@ Custom Elastalert alerta Alerter module. This module is using the python alerta 
 Installation
 ------------
 
-To install the Alerta CLI tool run:
+To install the Alerta python client
 
     $ pip install alerta
 
